@@ -81,3 +81,16 @@ nav > ul > li > a {
 nav > ul > li > a:hover {
     background-color: white;
   }
+
+  main > div > article > section{
+    background-color: #333333;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 22px;
+    color: white;
+    padding-bottom: 40px;
+    border-radius:5px;
+    margin-top: 30px;
+    line-height: 25px;
+  }
