@@ -238,4 +238,100 @@ footer > div  > p >a{
 height: 15px;
   }
 
+  @media screen and (width: 400px) {
+
+    .title{
+        width: 100%;
+        font-size: 53px;
+        padding-left: 45px;
+        padding-top: 15px;
+        color: black;
+    }
+
+    .subtitle{
+        width: 100%;
+        float: left;
+        color: black;
+        padding: 0px;
+    }
+
+    header > div  > p{
+        padding-right: 16px;
+        width: 152px;
+        margin-top: -2px;
+        display: contents;
+        font-size: small;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .link-github{
+        width: 126px;
+        margin-top: 33px;
+        margin-right: 110px;
+        display: inline-block;
+        font-size: large;
+        text-align: center;
+        text-decoration: none;
+        border: 2px solid black;
+        padding: 15px;
+        
+    }
+
+
+  ol{
+    list-style: none;
+    padding: 0px;
+  }
+
+  .containerOne{
+    background-color: #87CEFA;
+    padding: 25px;
+    padding-bottom: 35px;
+  }
+
+  .page-footer{
+    background-image: linear-gradient( white, #87CEFA);
+    padding: 30px 15px 10px 10px;
+    /* padding-bottom: 15px; */
+    text-align: center;
+  }
+
+  footer > div > a{ 
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    padding: 26px;
+    padding-right: 20px;
+    text-decoration: none;
+
+}
+
+footer > div > a:nth-child(3){
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
 
