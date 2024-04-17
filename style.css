@@ -93,4 +93,50 @@ nav > ul > li > a:hover {
     border-radius:5px;
     margin-top: 30px;
     line-height: 25px;
+    box-shadow: 20px 15px 15px #87CEFA;
+    padding-left: 15px;
+    padding-right: 15px;
+    
   }
+
+  main > div > article > section > a{
+    color: white;
+  }
+  main > div > article > section > p > a{
+    color: white;
+  }
+  main > div > article > section > blockquote > p >a{
+    color: white;
+  }
+  
+section > ol >li>a{
+    color: white;
+}
+
+  ol{
+    list-style: none;
+    
+  }
+
+  main > div > article > section >  ul {
+    list-style: none;
+    padding: 0px 15px;
+    
+  }
+  main > div > article > section >  ul >li:nth-child(odd){
+    background-color: #87CEFA;
+    color: black;
+    padding: 10px;
+    font-weight: 600;
+    text-align: left;
+
+  }
+  main > div > article > section >  ul >li:nth-child(even){
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 5px;
+    text-align: right;
+  }
+
+
