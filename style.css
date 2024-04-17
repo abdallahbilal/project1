@@ -36,6 +36,7 @@ header > div  > p{
 
 header > div  > p > a{
     text-decoration: none;
+    color: black;
 }
 
 
@@ -237,6 +238,7 @@ footer > div  > p >a{
   footer > div > ul >li:nth-child(2) > a > svg{
 height: 15px;
   }
+/* ----------------------------------------mobile------------------------------------------------------ */
 
   @media screen and (width: 400px) {
 
@@ -310,28 +312,6 @@ height: 15px;
 footer > div > a:nth-child(3){
     padding-top: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   }
 
 
